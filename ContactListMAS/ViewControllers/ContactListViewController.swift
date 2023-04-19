@@ -9,7 +9,7 @@ import UIKit
 
 class ContactListViewController: UITableViewController {
     
-    var contacts = DataSource().getPersons()
+    var contacts: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,7 @@ class ContactListViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let contactDetailsVC = segue.destination as? ContactDetailsViewController
-        contactDetailsVC?.contact = sender as? Person
+//        contactDetailsVC?.contact = sender as? Person
     }
 }
 

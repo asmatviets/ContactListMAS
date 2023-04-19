@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2BF3C229EFD27A00B62405 /* NavSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BF3C129EFD27A00B62405 /* NavSectionsViewController.swift */; };
+		1A2BF3C429EFD35100B62405 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BF3C329EFD35100B62405 /* TabBarViewController.swift */; };
+		1A2BF3C629EFD56500B62405 /* ContactListSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BF3C529EFD56500B62405 /* ContactListSectionsViewController.swift */; };
+		1A2BF3C829EFD99D00B62405 /* NavListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BF3C729EFD99D00B62405 /* NavListViewController.swift */; };
 		1AF026B329EE9FE00040341B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF026B229EE9FE00040341B /* AppDelegate.swift */; };
 		1AF026B529EE9FE00040341B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF026B429EE9FE00040341B /* SceneDelegate.swift */; };
 		1AF026BA29EE9FE00040341B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF026B829EE9FE00040341B /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2BF3C129EFD27A00B62405 /* NavSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSectionsViewController.swift; sourceTree = "<group>"; };
+		1A2BF3C329EFD35100B62405 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1A2BF3C529EFD56500B62405 /* ContactListSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSectionsViewController.swift; sourceTree = "<group>"; };
+		1A2BF3C729EFD99D00B62405 /* NavListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavListViewController.swift; sourceTree = "<group>"; };
 		1AF026AF29EE9FE00040341B /* ContactListMAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListMAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF026B229EE9FE00040341B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AF026B429EE9FE00040341B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +54,11 @@
 		1A2BF3BE29EFCBE400B62405 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1A2BF3C329EFD35100B62405 /* TabBarViewController.swift */,
+				1A2BF3C729EFD99D00B62405 /* NavListViewController.swift */,
+				1A2BF3C129EFD27A00B62405 /* NavSectionsViewController.swift */,
 				1AF026CB29EEAC900040341B /* ContactListViewController.swift */,
+				1A2BF3C529EFD56500B62405 /* ContactListSectionsViewController.swift */,
 				1AF026CD29EEC2B60040341B /* ContactDetailsViewController.swift */,
 			);
 			path = ViewControllers;
@@ -179,11 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2BF3C429EFD35100B62405 /* TabBarViewController.swift in Sources */,
 				1AF026B329EE9FE00040341B /* AppDelegate.swift in Sources */,
+				1A2BF3C829EFD99D00B62405 /* NavListViewController.swift in Sources */,
 				1AF026CC29EEAC900040341B /* ContactListViewController.swift in Sources */,
 				1AF026CE29EEC2B60040341B /* ContactDetailsViewController.swift in Sources */,
+				1A2BF3C629EFD56500B62405 /* ContactListSectionsViewController.swift in Sources */,
 				1AF026C729EEA0290040341B /* Person.swift in Sources */,
 				1AF026CA29EEA0D80040341B /* DataSource.swift in Sources */,
+				1A2BF3C229EFD27A00B62405 /* NavSectionsViewController.swift in Sources */,
 				1AF026B529EE9FE00040341B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
