@@ -43,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2BF3BE29EFCBE400B62405 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AF026CB29EEAC900040341B /* ContactListViewController.swift */,
+				1AF026CD29EEC2B60040341B /* ContactDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1A2BF3BF29EFCBF300B62405 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1AF026C929EEA0D80040341B /* DataSource.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A2BF3C029EFCC0E00B62405 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1AF026B429EE9FE00040341B /* SceneDelegate.swift */,
+				1AF026B229EE9FE00040341B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		1AF026A629EE9FE00040341B = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +88,10 @@
 		1AF026B129EE9FE00040341B /* ContactListMAS */ = {
 			isa = PBXGroup;
 			children = (
-				1AF026B229EE9FE00040341B /* AppDelegate.swift */,
-				1AF026B429EE9FE00040341B /* SceneDelegate.swift */,
-				1AF026CB29EEAC900040341B /* ContactListViewController.swift */,
-				1AF026CD29EEC2B60040341B /* ContactDetailsViewController.swift */,
 				1AF026C829EEA0330040341B /* Models */,
+				1A2BF3BE29EFCBE400B62405 /* ViewControllers */,
+				1A2BF3BF29EFCBF300B62405 /* Services */,
+				1A2BF3C029EFCC0E00B62405 /* App */,
 				1AF026B829EE9FE00040341B /* Main.storyboard */,
 				1AF026BB29EE9FE10040341B /* Assets.xcassets */,
 				1AF026BD29EE9FE10040341B /* LaunchScreen.storyboard */,
@@ -79,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				1AF026C629EEA0290040341B /* Person.swift */,
-				1AF026C929EEA0D80040341B /* DataSource.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,7 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,7 +371,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
